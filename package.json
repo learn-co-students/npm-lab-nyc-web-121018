@@ -1,0 +1,30 @@
+{
+  "name": "npm-lab-nyc-web-121018",
+  "version": "1.0.0",
+  "description": "package file for npm lab",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwfig/npm-lab-nyc-web-121018.git"
+  },
+  "keywords": [
+    "lab",
+    "test"
+  ],
+  "author": "dan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwfig/npm-lab-nyc-web-121018/issues"
+  },
+  "homepage": "https://github.com/dwfig/npm-lab-nyc-web-121018#readme",
+  "dependencies": {
+    "learn-browser": "^0.1.24",
+    "moment": "^2.24.0"
+  }
+}
